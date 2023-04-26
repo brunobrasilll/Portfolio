@@ -76,6 +76,7 @@ body, html{
     font-family: 'Lato', sans-serif;
 }
 
+
 header ul{
     list-style: none;
     display: flex;
@@ -236,7 +237,7 @@ section {
 }
 
 .sobre-texto p{
-    color: #A9A9A9;
+    color: #5E5E5E;
     font-size: 15px;
     font-weight: light;
     margin: 1rem;
