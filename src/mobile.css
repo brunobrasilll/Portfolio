@@ -3,8 +3,9 @@
     justify-content: center;
     flex-wrap: wrap;
     height: 100px;
-    position: absolute;
     background-color: #F6F1F1;
+    margin: 0;
+    padding: 0;
 }
 
 .header ul{
