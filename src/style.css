@@ -61,16 +61,18 @@ body, html{
 
 .header{
     width: 100%;
-    height: 8vh;
+    height: 80px;
     display: flex;
     text-align: center;
-    justify-content: space-between;
     position: fixed;
     background-color: transparent;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 80px;
 }
 
 .logo{
-    margin: 1rem 3rem;
+    /* margin: 0rem 3rem; */
     font-weight: 900;
     font-size: 35px;
     font-family: 'Lato', sans-serif;
@@ -83,6 +85,9 @@ header ul{
     font-size: 20px;
     margin: 1.5rem 3rem;
     font-weight: bold;
+    text-transform: uppercase;
+    font-weight: 900;
+    animation: 0.2s ease-in;
 }
 
 ul li {
@@ -101,7 +106,6 @@ ul li {
 
 main{
     width: 100%;
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -116,7 +120,7 @@ section {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    width: 65vw;
+    width: 65%;
     height: 60vh;
     border-radius: 25px;
     margin-top: 10rem;
@@ -130,7 +134,7 @@ section {
 .text-container h1{
     font-size: 60px;
     font-family: 'Lato', sans-serif;
-    font-weight: 1000;
+    font-weight: 900;
     margin: 2rem 2rem;
 }
 
@@ -463,4 +467,122 @@ section {
 
 section .contato {
     margin-top: 20rem;
+}
+
+@media (max-width: 1280px) {
+    .header{
+        position: absolute;
+    }
+
+    .text-container h1{
+        font-size: 45px;
+    }
+    .text-container{
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column wrap;
+        text-align: center;
+    }
+
+    .main-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .img-container{
+        width: 50%;
+        height: 30vh;
+    }
+
+    .tecnologias-container ul li img{
+        margin: 0.3rem;
+        object-fit: cover;
+        width: 100%;
+        height: 25px;
+    }
+    .sobre-container {
+        width: 100%;
+        height: 80vh; 
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .sobre-imagem{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+    }
+    .sobre-imagem img{
+        width: 50%;
+        height: 100%;
+    }
+
+    .sobre-texto{
+        text-align: center;
+        width: 60%;
+        height: 100%;
+    }
+    .sobre-texto p{
+        font-weight: 600;
+    }
+
+    section{
+        margin-top: 2rem;
+    }
+    .projetos{
+        width: 80%;
+        height: 100vh;
+    }
+
+    .projeto1-imagem {
+        width: 50%;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .projeto1-imagem img{
+        width: 90%;
+        margin: auto;
+        height: 35vh;
+    }
+
+    .projeto1-descricao {
+        width: 50%;
+        justify-content: center;
+    }
+
+    .projeto2-imagem {
+        width: 50%;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .projeto2-imagem img{
+        width: 90%;
+        margin: auto;
+        height: 35vh;
+    }
+
+    .projeto2-descricao {
+        width: 50%;
+        justify-content: center;
+    }
+
+    .projeto1{
+        margin: 2rem;
+    }
+
+    .projeto2{
+        margin: 2rem;
+    }
 }
