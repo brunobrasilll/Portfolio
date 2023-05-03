@@ -64,10 +64,10 @@ body, html{
     height: 80px;
     display: flex;
     text-align: center;
-    position: fixed;
+    position: absolute;
     background-color: transparent;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 0 80px;
 }
 
@@ -113,7 +113,7 @@ main{
 }
 
 section {
-    margin-top: 25rem;
+    margin-top: 20rem;
 }
 
 .main-container{
@@ -235,15 +235,15 @@ section {
 }
 
 .sobre-texto h4{
-    font-size: 23px;
+    font-size: 25px;
     font-weight: 900;
     margin: 1rem;
 }
 
 .sobre-texto p{
     color: #5E5E5E;
-    font-size: 15px;
-    font-weight: light;
+    font-size: 17px;
+    font-weight: 600;
     margin: 1rem;
     text-align: justify;
     letter-spacing: 0.7px;
