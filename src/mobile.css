@@ -135,6 +135,10 @@ section{
     margin-bottom: 1rem;
 }
 
+.projeto1-descricao, .projeto2-descricao p{
+    font-weight: 600;
+}
+
 
 
 .projeto2{
