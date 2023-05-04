@@ -6,6 +6,11 @@
     background-color: #F6F1F1;
 }
 
+header{
+    border-bottom: 1px solid #232323;
+}
+
+
 .header ul{
     display: none;
 }
@@ -34,6 +39,7 @@
     align-items: center;
     height: 110vh;
     width: 100%;
+    margin-top: 2rem;
 }
 .img-container{
     width: 100%;
@@ -125,6 +131,10 @@ section{
     height: 50%;
 }
 
+.projeto1-descricao ul{
+    margin-bottom: 1rem;
+}
+
 
 
 .projeto2{
@@ -214,3 +224,37 @@ section{
 section .contato {
     margin-top: 20rem;
 }
+
+body{
+    overflow-x: hidden;
+}
+
+.nav-list{
+    visibility: hidden;
+    position: absolute;
+    top: 8vh;
+    right: 0;
+    width: 100vw;
+    height: 50vh;
+    background: #fff;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;  
+    border: 5px solid #232323;  
+}
+
+.nav-list li{
+    margin-left: 0;
+    opacity: 0;
+    border-bottom: 1px solid #232323;
+}
+.mobile-menu {
+    display: block;
+}
+
+.nav-list.active{
+    visibility:visible;
+    transform: translateX(0);
+    transition: transform 0.3s ease-in;
+}
+
